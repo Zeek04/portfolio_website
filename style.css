@@ -1,0 +1,73 @@
+
+/*--- Background ---*/
+
+body{
+    background-color: rgb( 20, 20, 20);
+    height: 100%;
+    margin: 0;
+    overflow: hidden;
+}
+.background-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+  }
+  
+  canvas {
+    display: block;
+    filter:blur(3px);
+  }
+
+  /*--- Nav Bar ---*/
+
+.nav{
+    display: flex;
+    width: 100%;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav img{
+    height: 150px;
+    object-fit: cover;
+    width: 150px;
+    margin-right: 475px;
+}
+
+.nav-bar li{
+    display: inline-flex;
+    list-style: none;
+    padding: 15px;
+    margin-right: 45px;
+}
+
+.nav-bar li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.nav-bar li a:hover{
+    color: cadetblue;
+}
+
+
+#Contact{
+    background-color:cadetblue;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 10px;
+    padding: 10px 25px;
+}
+
+#Contact:hover{
+    background-color: rgba(60, 60, 60);
+}
+
+#Contact a:hover{
+    color: #fff;
+}
