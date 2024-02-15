@@ -2,10 +2,9 @@
 /*--- Background ---*/
 
 body{
+    font-family: "Poppins", sans-serif;
     background-color: rgb( 20, 20, 20);
     height: 100%;
-    margin: 0;
-    overflow: hidden;
 }
 .background-container {
     position: fixed;
@@ -55,7 +54,6 @@ body{
     color: cadetblue;
 }
 
-
 #Contact{
     background-color:cadetblue;
     text-align: center;
@@ -70,4 +68,51 @@ body{
 
 #Contact a:hover{
     color: #fff;
+}
+
+/*--- Header ---*/
+.heading header{
+    text-align: center;
+}
+
+.name{
+    color: cadetblue;
+    text-align: center;
+    margin-top: 250px;
+    font-size: 60px;
+
+}
+.position{
+    color: cadetblue;
+    text-align: center;
+    font-size: 18px;
+    margin-top: -20px;
+}
+.heading_button{
+    background-color: cadetblue;
+    border: none;
+    padding: 10px 8px;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+.heading_button:hover{
+    background-color: rgba(60, 60, 60);
+}
+.heading_button a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+}
+/*--- Skills ---*/
+
+.skills{
+    background-color: rgb( 10, 10, 10);
+    margin-top: 250px;
+}
+
+.section_title{
+    color: cadetblue;
+    font-size: 45px;
+    text-align: center;
 }
