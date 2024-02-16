@@ -1,118 +1,135 @@
-
 /*--- Background ---*/
 
-body{
-    font-family: "Poppins", sans-serif;
-    background-color: rgb( 20, 20, 20);
-    height: 100%;
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: rgb(20, 20, 20);
+  height: 100%;
 }
 .background-container {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: -1;
-  }
-  
-  canvas {
-    display: block;
-    filter:blur(3px);
-  }
-
-  /*--- Nav Bar ---*/
-
-.nav{
-    display: flex;
-    width: 100%;
-    height: 100px;
-    align-items: center;
-    justify-content: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
 }
 
-.nav img{
-    height: 150px;
-    object-fit: cover;
-    width: 150px;
-    margin-right: 475px;
+canvas {
+  display: block;
+  filter: blur(3px);
 }
 
-.nav-bar li{
-    display: inline-flex;
-    list-style: none;
-    padding: 15px;
-    margin-right: 45px;
+/*--- Nav Bar ---*/
+
+.nav {
+  display: flex;
+  width: 100%;
+  height: 100px;
+  align-items: center;
+  justify-content: center;
 }
 
-.nav-bar li a{
-    color: #fff;
-    text-decoration: none;
-    font-size: 18px;
+.nav img {
+  height: 150px;
+  object-fit: cover;
+  width: 150px;
+  margin-right: 475px;
 }
 
-.nav-bar li a:hover{
-    color: cadetblue;
+.nav-bar li {
+  display: inline-flex;
+  list-style: none;
+  padding: 15px;
+  margin-right: 45px;
 }
 
-#Contact{
-    background-color:cadetblue;
-    text-align: center;
-    cursor: pointer;
-    border-radius: 10px;
-    padding: 10px 25px;
+.nav-bar li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
 }
 
-#Contact:hover{
-    background-color: rgba(60, 60, 60);
+.nav-bar li a:hover {
+  color: cadetblue;
 }
 
-#Contact a:hover{
-    color: #fff;
+#Contact {
+  background-color: cadetblue;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 10px;
+  padding: 10px 25px;
+}
+
+#Contact:hover {
+  background-color: rgba(60, 60, 60);
+}
+
+#Contact a:hover {
+  color: #fff;
 }
 
 /*--- Header ---*/
-.heading header{
-    text-align: center;
+.heading header {
+  text-align: center;
 }
 
-.name{
-    color: cadetblue;
-    text-align: center;
-    margin-top: 250px;
-    font-size: 60px;
-
+.name {
+  color: cadetblue;
+  text-align: center;
+  margin-top: 250px;
+  font-size: 60px;
 }
-.position{
-    color: cadetblue;
-    text-align: center;
-    font-size: 18px;
-    margin-top: -20px;
+.position {
+  color: cadetblue;
+  text-align: center;
+  font-size: 18px;
+  margin-top: -20px;
 }
-.heading_button{
-    background-color: cadetblue;
-    border: none;
-    padding: 10px 8px;
-    border-radius: 8px;
-    cursor: pointer;
-    margin-top: 15px;
+.heading_button {
+  background-color: cadetblue;
+  border: none;
+  padding: 10px 8px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 15px;
 }
-.heading_button:hover{
-    background-color: rgba(60, 60, 60);
+.heading_button:hover {
+  background-color: rgba(60, 60, 60);
 }
 .heading_button a {
-    color: #fff;
-    text-decoration: none;
-    font-size: 20px;
+  color: #fff;
+  text-decoration: none;
+  font-size: 20px;
 }
 /*--- Skills ---*/
 
-.skills{
-    background-color: rgb( 10, 10, 10);
-    margin-top: 250px;
+.skills {
+  background-color: rgb(17, 17, 17);
+  margin-top: 250px;
 }
 
-.section_title{
-    color: cadetblue;
-    font-size: 45px;
+.section_title {
+  color: cadetblue;
+  font-size: 45px;
+  text-align: center;
+}
+
+.skill_icons{
+    color: #fff;
     text-align: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    font-size: 50px;
+}
+
+.icon_title{
+    color: #fff;
+    display: flex;
+    padding: 35px;
+    justify-content: space-between;
+    text-align: center;
+    margin-top: -50px;
+
 }
